@@ -1,0 +1,45 @@
+{
+  "name": "sterowanie24-client-nodejs",
+  "version": "1.0.0",
+  "description": "Client for interacting with Sterowanie24 platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakewik/sterowanie24-client-nodejs.git"
+  },
+  "keywords": [
+    "lights",
+    "control",
+    "iot",
+    "raspberrypi",
+    "orangepi",
+    "api",
+    "websocket"
+  ],
+  "dependencies": {
+    "@octokit/rest": "^14.0.5",
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "configstore": "^3.1.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.0.1",
+    "localize": "^0.4.7",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "node-emoji": "^1.8.1",
+    "ora": "^3.0.0",
+    "prompt": "^1.0.0",
+    "simple-git": "^1.89.0",
+    "touch": "^3.1.0"
+  },
+  "author": "Wiktor Jezioro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lakewik/sterowanie24-client-nodejs/issues"
+  },
+  "homepage": "https://github.com/lakewik/sterowanie24-client-nodejs#readme"
+}
